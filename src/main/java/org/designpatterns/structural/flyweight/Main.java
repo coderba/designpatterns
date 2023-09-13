@@ -3,6 +3,7 @@ package org.designpatterns.structural.flyweight;
 import org.designpatterns.structural.flyweight.model.Color;
 import org.designpatterns.structural.flyweight.model.Forest;
 
+// https://refactoring.guru/design-patterns/flyweight
 public class Main {
     static int TREES_TO_DRAW = 1000000;
     static int TREE_TYPES = 2;
