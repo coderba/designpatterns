@@ -1,6 +1,5 @@
 package org.designpatterns.creational.abstractfactory.model;
 
-import org.designpatterns.creational.abstractfactory.model.Car;
 import org.designpatterns.creational.abstractfactory.type.CarType;
 import org.designpatterns.creational.abstractfactory.type.Location;
 

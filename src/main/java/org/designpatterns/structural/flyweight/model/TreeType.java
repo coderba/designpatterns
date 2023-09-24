@@ -34,7 +34,7 @@ public class TreeType {
     public void setOtherTreeData(String otherTreeData) {
         this.otherTreeData = otherTreeData;
     }
-    
+
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -72,7 +72,7 @@ public class TreeType {
     @Override
     public String toString() {
         return "TreeType [name=" + name + ", color=" + color + ", otherTreeData=" + otherTreeData + "]";
-    }    
+    }
 
-    
+
 }

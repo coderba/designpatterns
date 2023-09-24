@@ -1,6 +1,6 @@
 package org.designpatterns.creational.prototype;
 
-public class Rectangle extends Shape{
+public class Rectangle extends Shape {
     public int width;
     public int height;
 

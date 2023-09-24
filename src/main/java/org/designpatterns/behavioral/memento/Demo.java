@@ -1,5 +1,8 @@
 package org.designpatterns.behavioral.memento;
 
+import org.designpatterns.behavioral.memento.model.TextEditor;
+import org.designpatterns.behavioral.memento.model.TextWindow;
+
 // https://www.baeldung.com/java-memento-design-pattern
 // https://github.com/eugenp/tutorials/tree/master/patterns-modules/design-patterns-behavioral-2/src/main/java/com/baeldung/memento
 public class Demo {
