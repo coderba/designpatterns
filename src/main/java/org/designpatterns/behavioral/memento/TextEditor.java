@@ -3,7 +3,7 @@ package org.designpatterns.behavioral.memento;
 // The Caretaker 
 // It will hold the state of the Originator and ask to restore it when needed:
 public class TextEditor {
-    private TextWindow textWindow;
+    private final TextWindow textWindow;
     private TextWindowState savedTextWindow;
 
     public TextEditor(TextWindow textWindow) {

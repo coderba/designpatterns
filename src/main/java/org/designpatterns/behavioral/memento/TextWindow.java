@@ -22,6 +22,6 @@ public class TextWindow {
     }
 
     public void restore(TextWindowState save){
-        currentText = new StringBuilder(save().getText());
+        currentText = new StringBuilder(save.getText());
     }
 }
