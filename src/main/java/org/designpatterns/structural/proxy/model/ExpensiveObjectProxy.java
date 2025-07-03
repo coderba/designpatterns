@@ -1,7 +1,7 @@
 package org.designpatterns.structural.proxy.model;
 
 public class ExpensiveObjectProxy implements ExpensiveObject {
-    private static ExpensiveObject expensiveObject;
+    private ExpensiveObject expensiveObject;
 
     public ExpensiveObjectProxy() {
         System.out.println("Proxy created");
