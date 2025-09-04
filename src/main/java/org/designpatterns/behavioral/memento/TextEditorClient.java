@@ -2,15 +2,18 @@ package org.designpatterns.behavioral.memento;
 
 public class TextEditorClient {
     public static void main(String[] args) {
-        TextEditor editor = new TextEditor("Initial content.");
+        TextEditor editor = new TextEditor("");
+        editor.addText("Initial content.");
         History history = new History();
 
         // Save the initial state
+        System.out.println("\n--- Performing an Save ---\n");
         history.save(editor.save());
 
         editor.addText(" Some new words.");
 
         // Save the new state
+        System.out.println("\n--- Performing an Save ---\n");
         history.save(editor.save());
 
         editor.addText(" And more words.");

@@ -1,9 +1,9 @@
 package org.designpatterns.behavioral.memento;
 
-// Caretaker
-// It holds a stack of Memento objects
 import java.util.Stack;
 
+// Caretaker
+// It holds a stack of Memento objects
 public class History {
     private final Stack<TextEditorMemento> history = new Stack<>();
 
