@@ -1,6 +1,6 @@
-package org.designpatterns.structural.proxy;
+package org.designpatterns.structural.proxy.example1;
 
-import org.designpatterns.structural.proxy.model.ExpensiveObjectProxy;
+import org.designpatterns.structural.proxy.example1.model.ExpensiveObjectProxy;
 
 // https://www.baeldung.com/java-proxy-pattern
 public class Main {

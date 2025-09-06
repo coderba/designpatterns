@@ -1,4 +1,4 @@
-package org.designpatterns.structural.proxy.model;
+package org.designpatterns.structural.proxy.example1.model;
 
 public class ExpensiveObjectProxy implements ExpensiveObject {
     private static ExpensiveObject expensiveObject;
