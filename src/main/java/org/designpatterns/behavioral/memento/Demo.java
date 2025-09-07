@@ -1,5 +1,10 @@
 package org.designpatterns.behavioral.memento;
 
+/**
+ * Mediator vs Observer
+ * Mediator = Hub (objects don’t talk to each other, only to hub).
+ * Observer = Notification (subject pushes updates to subscribers).
+ */
 public class Demo {
     public static void main(String[] args) {
         org.designpatterns.behavioral.memento.TextEditor editor = new org.designpatterns.behavioral.memento.TextEditor("");
