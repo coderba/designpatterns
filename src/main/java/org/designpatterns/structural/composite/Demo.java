@@ -8,6 +8,9 @@ package org.designpatterns.structural.composite;
  * The client can call showDetails() on any employee, and it works the same way.
  */
 public class Demo {
+    public Demo() {
+    }
+
     public static void main(String[] args) {
         // Leaf employees
         Employee dev1 = new Developer("Alice", "Backend Developer");
